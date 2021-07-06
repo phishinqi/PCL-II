@@ -33,7 +33,7 @@
 </local:MyCard> 
 
 <local:MyCard Title="临时添加的功能（逃" Margin="0,0,0,10" CanSwap="True" IsSwaped="True">
- 	<StackPanel Margin="10,30,23,15" HorizontalAlignment="Center">
+ 	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center">
 		<StackPanel Orientation="Horizontal">	
 			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="点我刷新主页" EventType="刷新主页" EventData="点我刷新主页"/>	
 			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="赞助龙腾卯月（雾）" EventType="打开网页" EventData="http://afdian.net/@LTCat"/>
@@ -54,9 +54,9 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="记得每天都要看日历哦！" Margin="0,0,0,20" CanSwap="True" IsSwaped="True">
-	<StackPanel Margin="15,40,15,15">
-		<Calendar  HorizontalAlignment="left" Margin="16,30,0,10"></Calendar>
+<local:MyCard Title="记得每天都要看日历哦！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="0,40,0,15">
+		<Calendar  HorizontalAlignment="Left" Margin="16,30,0,10"></Calendar>
 	</StackPanel>
 </local:MyCard>
 
