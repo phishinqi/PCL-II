@@ -1,0 +1,183 @@
+﻿<local:MyCard Title="鱼七和大家的自定义主页" Margin="0,0,0,15"> 
+    <StackPanel Margin="10,30,23,15"> 
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="版本:The End. "/>
+		<local:MyHint Text="这将是主页迎来的最后一次更新，从此以后，该主页不会更新，望周知" /> 
+		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，但前提条件下是需要与我进行沟通。" /> 
+   </StackPanel> 
+</local:MyCard> 
+
+<local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True"> 
+    <StackPanel Margin="10,30,23,15"> 
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="水更新 " />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="删除众多无用/已损坏功能，添加日历。" /> 
+		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，但前提条件下是需要与我进行沟通。" /> 
+   </StackPanel> 
+</local:MyCard> 
+
+<local:MyCard Title="一路以来，鱼七想说的话" Margin="0,0,0,15" CanSwap="True" IsSwaped="true"> 
+    <StackPanel Margin="10,30,23,15"> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="Hello~大家好，这里是该主页的原作者鱼七，截至2021.07.03，该主页也在不断地进行着更新与维护（打脸）" /> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="从此以后，该主页将停止更新。" />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="感谢大家使用或使用过该主页，我也不知道你们是否能够看到我在这里写下的话。" />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="一路以来貌似也并没有发生什么事情。" />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="无非也就是自己的成果被别人挖去，但也感谢他为我带来的欢乐。" />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="夜深了，我也要睡了。" />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="我期待着命运齿轮再一次的转动。" />
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="The End." />  
+   </StackPanel> 
+</local:MyCard> 
+
+<local:MyCard Title="饿饿，饭饭" Margin="0,0,0,15" CanSwap="True" IsSwaped="false"> 
+    <StackPanel Margin="10,30,23,15"> 
+		<local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
+           Text="饿饿，饭饭" EventType="打开网页" EventData="https://www.afdian.net/@phishinQi" />
+   </StackPanel> 
+</local:MyCard> 
+
+<local:MyCard Title="临时添加的功能（逃" Margin="0,0,0,10" CanSwap="True" IsSwaped="True">
+ 	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center">
+		<StackPanel Orientation="Horizontal">	
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="点我刷新主页" EventType="刷新主页" EventData="点我刷新主页"/>	
+			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="赞助龙腾卯月（雾）" EventType="打开网页" EventData="http://afdian.net/@LTCat"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="这是我的QQ号！" EventType="复制文本" EventData="2844188892"/>
+		</StackPanel>
+		
+		<local:MyCard Title="没什么用的功能" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+			<StackPanel Margin="25,40,23,15">
+				<Label FontWeight="Bold">你喜欢我的主页吗？</Label>
+					<RadioButton>喜欢</RadioButton>
+					<RadioButton>非常喜欢</RadioButton>
+					<RadioButton>不喜欢</RadioButton>
+					<RadioButton IsChecked="True">也许吧</RadioButton>
+			</StackPanel>
+		</local:MyCard>
+		
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="记得每天都要看日历哦！" Margin="0,0,0,20" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="15,40,15,15">
+		<Calendar  HorizontalAlignment="Left" Margin="16,30,0,10"></Calendar>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard  Title="常用网站"  Margin="0,0,0,10"  CanSwap="True"  IsSwaped="True">
+	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center"> 
+		<local:MyButton Margin="0,0,0,4" Width="365" Height="35" ColorType="Highlight" Text="B站主页" EventType="打开网页" EventData="https://space.bilibili.com/325126747"/>	 
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" ColorType="Highlight" EventType="打开网页" EventData="https://www.bilibili.com/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Panzoid" EventType="打开网页" EventData="https://panzoid.com/"/>
+		<local:MyButton Margin="4,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="二次元画像搜索" EventType="打开网页" EventData="https://ascii2d.net/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Pixivic" EventType="打开网页" EventData="https://pixivic.com/?VNK=558b95b3"/>
+	</StackPanel>
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="SakuraFrp" EventType="打开网页" EventData="https://www.natfrp.com/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="NBT Editor" EventType="打开网页" EventData="https://irath96.github.io/webNBT/"/> 
+		<local:MyButton Margin="4,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="MIDI Show" EventType="打开网页" EventData="https://www.midishow.com/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="masa全家桶" EventType="打开网页" EventData="https://masa.dy.fi/mcmods/client_mods/"/>
+	</StackPanel>
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="免费上网账号" EventType="打开网页" EventData="https://free-ss.best/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Chunk Base" EventType="打开网页" EventData="https://chunkbase.com/"/>	  
+		<local:MyButton Margin="4,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="颜色16进制码" EventType="打开网页" EventData="https://www.sioe.cn/yingyong/yanse-rgb-16/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Pixivision" EventType="打开网页" EventData="https://www.pixivision.net/zh/t/8"/>
+	</StackPanel>
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Minecraft Tools Box" EventType="打开网页" EventData="https://minecraft.tools/en/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="站长之家" EventType="打开网页" EventData="http://tool.chinaz.com/"/>
+		<local:MyButton Margin="4,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="MineBBS" EventType="打开网页" EventData="https://www.minebbs.com/home/"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Minecraft ID List" EventType="打开网页" EventData="https://minecraft-ids.grahamedgecombe.com/"/>
+	</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard  Title="MCBBS"  Margin="0,0,0,10"  CanSwap="True"  IsSwaped="True">
+	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center">
+		<local:MyButton Margin="0,0,0,4" Width="365" Height="35" ColorType="Highlight" Text="首页" EventType="打开网页" EventData="https://www.mcbbs.net/"/>
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" Text="综合讨论" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=36"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" Text="灵感交流" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=50"/>
+		<local:MyButton Margin="4,0,0,4" Width="88" Height="35" Text="创世匠艺" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=800"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" Text="你问我答" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=364"/>
+	</StackPanel>
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" Text="Mod板块" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=168"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" Text="多人联机" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=167"/>
+		<local:MyButton Margin="4,0,0,4" Width="88" Height="35" Text="基岩版" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=363"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" Text="相关游戏" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=104"/>
+	</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="实用工具" Margin="0,0,0,10" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center">
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" Text="Minecraft中文WiKi" EventType="打开网页" EventData="https://https://minecraft-zh.gamepedia.com/"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" Text="MC中文WiKi镜像站" EventType="打开网页" EventData="https://wiki.biligame.com/mc/Minecraft_Wiki"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,0,4" Width="119" Height="35" Text="MCMOD" EventType="打开网页" EventData="https://www.mcbbs.net/forum.php?gid=168"/>
+			<local:MyButton Margin="4,0,0,4" Width="119" Height="35" Text="指令生成器" EventType="打开网页" EventData="https://www.mcmod.cn/tools/cbcreator/"/>
+			<local:MyButton Margin="4,0,0,4" Width="119" Height="35" Text="成就生成器" EventType="打开网页" EventData="https://www.mcmod.cn/tools/achievements/"/>
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="CurseForge" Margin="0,0,0,10" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center">
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="CurceForge - Minecraft" EventType="打开网页" EventData="https://www.curseforge.com/minecraft"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" Text="Bukkit Plugins" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/bukkit-plugins"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" Text="Modpacks" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/modpacks"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" Text="Customization" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/customization"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" Text="Addons" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-addons"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" Text="Mods" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" Text="Resource Packs" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/texture-packs"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" Text="Worlds" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/worlds"/>
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="HackClient" Margin="0,0,0,10" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="Wurst" EventType="打开网页" EventData="https://www.wurstclient.net/download/"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="Inertia（前WWE）" EventType="打开网页" EventData="https://inertiaclient.com/Download.php"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="Impact" EventType="打开网页" EventData="https://impactclient.net/"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="水影" EventType="打开网页" EventData="https://mctest.go176.net/"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="Aristois" EventType="打开网页" EventData="https://aristois.net/download/"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="Mohist" EventType="打开网页" EventData="https://github.com/Mohist-Community/Mohist"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">		
+			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="Sigma" EventType="打开网页" EventData="https://sigmaclient.info/"/>
+			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="卡米蓝" EventType="打开网页" EventData="https://kamiblue.org/"/>
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="灵魂画师" Margin="0,0,0,20" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="15,40,15,15">
+		<InkCanvas>
+		</InkCanvas>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="可怜的鸣（暗）谢（杀）名单被拖在了最后面awa" Margin="0,0,0,15" CanSwap="True" IsSwaped="false"> 
+    <StackPanel Margin="10,30,23,15"> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="感谢hsn（鬼）提供的联网发布、下载工具以及生成器，这使我节省了大把时间复制粘贴（bushi）" /> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="感谢hsn（鬼）提供的随机涩图API（尽管现在已经删除了涩图功能）" /> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="龙腾卯月提供的PCL2" /> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="And You." /> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="然后没了？？？" /> 
+   </StackPanel> 
+</local:MyCard> 
