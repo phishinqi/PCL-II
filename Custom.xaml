@@ -1,8 +1,8 @@
-﻿<local:MyCard Title="鱼七和大家的自定义主页" Margin="0,0,0,15"> 
+<local:MyCard Title="鱼七和大家的自定义主页" Margin="0,0,0,15"> 
     <StackPanel Margin="10,30,23,15"> 
-		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="版本:Phi.TheEnd "/>
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="版本:TheEnd. "/>
 		<local:MyHint Text="这将是主页迎来的最后一次更新，从此以后，该主页不会更新，望周知" /> 
-		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，前提是需要提前与我进行沟通。" /> 
+		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，但前提条件下是需要与我进行沟通。" /> 
    </StackPanel> 
 </local:MyCard> 
 
@@ -10,7 +10,7 @@
     <StackPanel Margin="10,30,23,15"> 
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="最后の更新 " />
 		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="彻底删除随机涩图，添加日历。" /> 
-		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，前提是需要提前与我进行沟通。" /> 
+		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，但前提条件下是需要与我进行沟通。" /> 
    </StackPanel> 
 </local:MyCard> 
 
@@ -37,8 +37,8 @@
 		<StackPanel Orientation="Horizontal">	
 			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="点我刷新主页" EventType="刷新主页" EventData="点我刷新主页"/>	
 			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="赞助龙腾卯月（雾）" EventType="打开网页" EventData="http://afdian.net/@LTCat"/>
+			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="我的个人主页" EventType="打开网页" EventData="https://phishinqi.github.io"/>
 			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="这是我的QQ号！" EventType="复制文本" EventData="2844188892"/>
-			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="个人主页" EventType="打开网页" EventData="https://phishinqi.github.io"/>
 		</StackPanel>
 		
 		<local:MyCard Title="没什么用的功能" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
@@ -62,7 +62,7 @@
 
 <local:MyCard  Title="常用网站"  Margin="0,0,0,10"  CanSwap="True"  IsSwaped="True">
 	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center"> 
-		<local:MyButton Margin="0,0,0,4" Width="365" Height="35" ColorType="Highlight" Text="个人主页" EventType="打开网页" EventData="https://phishinqi.github.io"/>	 
+		<local:MyButton Margin="0,0,0,4" Width="365" Height="35" ColorType="Highlight" Text="我的个人主页" EventType="打开网页" EventData="https://phishinqi.github.io"/>	 
 	<StackPanel Orientation="Horizontal">
 		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" ColorType="Highlight" EventType="打开网页" EventData="https://www.bilibili.com/"/>
 		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="Panzoid" EventType="打开网页" EventData="https://panzoid.com/"/>
