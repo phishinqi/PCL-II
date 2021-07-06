@@ -40,6 +40,7 @@
 			<local:MyButton Margin="0,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="点我刷新主页" EventType="刷新主页" EventData="点我刷新主页"/>	
 			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="赞助龙腾卯月（雾）" EventType="打开网页" EventData="http://afdian.net/@LTCat"/>
 			<local:MyButton Margin="5,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="这是我的QQ号！" EventType="复制文本" EventData="2844188892"/>
+			<local:MyButton Margin="4,0,0,4" Width="180" Height="35" ColorType="Highlight" Text="赞助我" EventType="打开网页" EventData="http://afdian.net/@PhishinQi"/>
 		</StackPanel>
 		
 		<local:MyCard Title="没什么用的功能" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
