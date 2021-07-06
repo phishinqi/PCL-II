@@ -54,8 +54,8 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="记得每天都要看日历哦！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-	<StackPanel Margin="0,40,0,15">
+<local:MyCard Title="记得每天都要看日历哦！" Margin="0,0,0,20" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="15,40,15,15">
 		<Calendar  HorizontalAlignment="Left" Margin="16,30,0,10"></Calendar>
 	</StackPanel>
 </local:MyCard>
