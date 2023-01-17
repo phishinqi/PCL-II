@@ -1,14 +1,14 @@
 <local:MyCard Title="鱼七和大家的自定义主页" Margin="0,0,0,15"> 
     <StackPanel Margin="10,30,23,15"> 
-		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="版本:TheEnd. "/>
-		<local:MyHint Text="这将是主页迎来的最后一次更新，从此以后，该主页不会更新，望周知" /> 
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="版本:114514. "/>
+		<local:MyHint Text="回来了" /> 
 		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，但前提条件下是需要与我进行沟通。" /> 
    </StackPanel> 
 </local:MyCard> 
 
 <local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True"> 
     <StackPanel Margin="10,30,23,15"> 
-		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="最后の更新 " />
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="114514 " />
 		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="彻底删除随机涩图，添加日历。" /> 
 		<local:MyHint Text="注：你可以引用该主页的代码到自己的主页，但前提条件下是需要与我进行沟通。" /> 
    </StackPanel> 
@@ -16,13 +16,7 @@
 
 <local:MyCard Title="一路以来，鱼七想说的话" Margin="0,0,0,15" CanSwap="True" IsSwaped="true"> 
     <StackPanel Margin="10,30,23,15"> 
-		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="Hello~大家好，这里是该主页的原作者鱼七，截至2021.07.03，该主页也在不断地进行着更新与维护（打脸）" /> 
-		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="从此以后，该主页将停止更新。" />
-		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="感谢大家使用或使用过该主页，我也不知道你们是否能够看到我在这里写下的话。" />
-		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="一路以来貌似也并没有发生什么事情。" />
-		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="无非也就是自己的成果被别人挖去，但也感谢他为我带来的欢乐。" />
-		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="The End." />  
-   </StackPanel> 
+		<TextBlock TextWrapping="Wrap" Margin="20,10,0,12" FontSize="12" Text="Hello~先辈节快乐！！！" />    </StackPanel> 
 </local:MyCard> 
 
 <local:MyCard Title="饿饿，饭饭" Margin="0,0,0,15" CanSwap="True" IsSwaped="false"> 
