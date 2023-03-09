@@ -5,15 +5,13 @@
    </StackPanel> 
 </local:MyCard> 
 
-<local:MyCard Title="切换 MODS">
-    <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
-        <StackPanel Orientation="Horizontal">
-        <local:MyButton Margin="0,0,0,4" Width="200" Height="35"
-                   Text="切换为 REI" EventType="打开文件" EventData="REI.exe" ToolTip="禁用 JEI 及其附属 MOD 并启用 REI 及其附属 MOD" />
-        <local:MyButton Margin="4,0,0,4" Width="200" Height="35"
-                   Text="切换为 JEI" EventType="打开文件" EventData="JEI.exe" ToolTip="禁用 REI 及其附属 MOD 并启用 JEI 及其附属 MOD" />
-        </StackPanel>
-    </StackPanel>
+<local:MyCard  Title="切换 MODS"  Margin="0,0,0,10"  CanSwap="True"  IsSwaped="True">
+	<StackPanel Margin="0,40,0,15" HorizontalAlignment="Center"> 
+	<StackPanel Orientation="Horizontal">
+		<local:MyButton Margin="0,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="切换为 REI" EventType="打开文件" EventData="REI.exe" ToolTip="禁用 JEI 及其附属 MOD 并启用 REI 及其附属 MOD"/>
+		<local:MyButton Margin="5,0,0,4" Width="88" Height="35" ColorType="Highlight" Text="切换为 JEI" EventType="打开文件" EventData="JEI.exe" ToolTip="禁用 REI 及其附属 MOD 并启用 JEI 及其附属 MOD"/>
+	</StackPanel>
+	</StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True"> 
