@@ -1,7 +1,6 @@
-<local:MyCard Title="鱼七和大家的自定义主页" Margin="0,0,0,15"> 
+<local:MyCard Title="鱼七的自定义主页" Margin="0,0,0,15"> 
     <StackPanel Margin="10,30,23,15"> 
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="版本:114514. "/>
-		<local:MyHint Text="回来了" /> 
 		<local:MyHint Text="注：该主页现用于ROR生电整合包！" /> 
    </StackPanel> 
 </local:MyCard> 
